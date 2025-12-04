@@ -6,3 +6,5 @@ Download Timestablequiz.py
 Open with your preferred application, it can be run directly from the Python terminal
 ### Step 3: Start the quiz
 Once the code is run, you will be able to start the quiz by entering any character and clicking enter. This will start a 3 second countdown before the quiz begins.
+### Python libraries
+This script used random and time, ensure these are installed.
