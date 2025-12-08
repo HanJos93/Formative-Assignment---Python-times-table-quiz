@@ -27,4 +27,17 @@ The above code manages the introduction to the quiz, once any character is enter
 qtimelimit = (60)
 qtimerstart = time.time() 
 ```
-The qtimelimit variable is used to set how long (in seconds) the quiz lasts, editting this variable alone will allow you to customise the time limit for the quiz. Qtimerstart records the current time in seconds since epoch and will be used to calculate how long is left in the quiz after each answered question.
+The qtimelimit variable is used to set how long (in seconds) the quiz lasts, editting this variable alone will allow you to customise the time limit for the quiz. 
+Qtimerstart records the current time in seconds since epoch and will be used to calculate how long is left in the quiz after each answered question.
+
+```python
+for i in range (qtimelimit):
+    num1 = random.randint(1, 12) #Defines the first number
+    num2 = random.randint(1, 12) #Defines the second number
+    answer = int(num1*num2) #Defines the answer
+    question = int(input(f"{num1} * {num2} " )) #Generates a question that times num1 by num2
+```
+The 'for i in range' loop allows the following questions to loop for as long as the time limit set in qtimelimit is not exceeded. 
+The num1 and num2 variables are assigned random values from a range of 1 to 12 each loop using the randint function from the random library. You can adjust the values to customise the questions you will be asked. 
+The answer varaible multiplies num1 and num2 to define what the answer should be
+The question variable outputs a times-table question using the values assigned to num1 and num2.
