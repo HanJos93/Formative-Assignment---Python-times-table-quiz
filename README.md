@@ -22,3 +22,9 @@ for i in range(qcountdown):
         break
 ```
 The above code manages the introduction to the quiz, once any character is entered it begins a 3 second countdown using a 'for i in range' loop that waits 1 second using time.sleep before subtracting 1 from the variable and printing each step of the countdown.
+
+```python
+qtimelimit = (60)
+qtimerstart = time.time() 
+```
+The qtimelimit variable is used to set how long (in seconds) the quiz lasts, editting this variable alone will allow you to customise the time limit for the quiz. Qtimerstart records the current time in seconds since epoch and will be used to calculate how long is left in the quiz after each answered question.
