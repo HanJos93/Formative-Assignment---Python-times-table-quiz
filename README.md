@@ -42,3 +42,12 @@ The 'for i in range' loop allows the following questions to loop for as long as 
 The num1 and num2 variables are assigned random values from a range of 1 to 12 each loop using the randint function from the random library. You can adjust the values to customise the questions you will be asked. 
 The answer varaible multiplies num1 and num2 to define what the answer should be
 The question variable outputs a times-table question using the values assigned to num1 and num2.
+
+```python
+if question == answer:
+        print("Correct!")
+        score = score + 1
+    else:
+        print("Incorrect!")
+```
+If the user input in the variable question is the same as answer, the question is considered correct and a value of +1 is added to the score and a new question is generated. If it does not match, no value is added to the score and a new question is generated.
