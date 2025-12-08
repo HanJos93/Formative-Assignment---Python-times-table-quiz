@@ -5,7 +5,7 @@ Download Timestablequiz.py
 ### Step 2: Open Timestablequiz.py
 Open with your preferred environment, it can be run directly from the Python terminal
 ### Step 3: Start the quiz
-Once the code is run, you will be able to start the quiz by entering any character and clicking enter. This will start a 3 second countdown before the quiz begins.
+Once the code is run, you will be able to start the quiz by entering any character and pressing enter. This will start a 3 second countdown before the quiz begins.
 ### Python libraries
 This script uses random and time, ensure these are installed.
 ## Technical documentation
@@ -28,8 +28,8 @@ qcountdown is a variable used as a countdown. Once run each second using time.sl
 qtimelimit = (60)
 qtimerstart = time.time() 
 ```
-The qtimelimit variable is used to set how long (in seconds) the quiz lasts, editting this variable alone will allow you to customise the time limit for the quiz. 
-Qtimerstart records the current time in seconds since epoch and will be used to calculate how long is left in the quiz after each answered question.
+The qtimelimit variable is used to set how long (in seconds) the quiz lasts, editing this variable alone will allow you to customise the time limit for the quiz. 
+qtimerstart records the current time in seconds since epoch and will be used to calculate how long is left in the quiz after each answered question.
 
 ```python
 for i in range (qtimelimit):
@@ -40,7 +40,7 @@ for i in range (qtimelimit):
 ```
 The 'for i in range' loop allows the following questions to loop for as long as the time limit set in qtimelimit is not exceeded. 
 The num1 and num2 variables are assigned random values from a range of 1 to 12 each loop using the randint function from the random library. You can adjust the values to customise the questions you will be asked. 
-The answer varaible multiplies num1 and num2 to define what the answer should be
+The answer variable multiplies num1 and num2 to define what the answer should be
 The question variable outputs a times-table question using the values assigned to num1 and num2.
 
 ```python
