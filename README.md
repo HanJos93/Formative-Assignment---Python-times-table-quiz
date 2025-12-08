@@ -51,3 +51,14 @@ if question == answer:
         print("Incorrect!")
 ```
 If the user input in the variable question is the same as answer, the question is considered correct and a value of +1 is added to the score and a new question is generated. If it does not match, no value is added to the score and a new question is generated.
+
+```python
+    qtimercheck = time.time()
+    qtimerend = qtimercheck - qtimerstart #Subtracts start time from current time
+    if qtimerend >=qtimelimit: 
+        print (f"Time is up! You scored {score}. Try again for a better score!")
+        break
+```
+This is how the quiz keeps track of time after each question.
+qtimercheck records the current time in seconds since epoch. 
+qtimerend subtracts the current time (qtimercheck) from the time recorded at the beginning of the quiz (qtimerstart) to find the exact duration in seconds it has been. If this value exceeds qtimelimit after a question is answered the quiz is over and your final score is printed.
