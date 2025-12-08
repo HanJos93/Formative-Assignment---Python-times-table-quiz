@@ -5,7 +5,7 @@ import random
 import time
 
 #Introduction to the quiz
-quiz_intro = str(input("Welcome to my times-table quiz! You will have 60 seconds to get as many answers correct as possible. Type anything to begin "))
+quiz_intro = str(input("Welcome to my times-table quiz! You will have 60 seconds to get as many answers correct as possible. Type anything and press enter to begin "))
 qcountdown = 4
 #Start a 3 second countdown for the quiz
 for i in range(qcountdown):
@@ -38,4 +38,5 @@ for i in range (qtimelimit):
     if qtimerend >=qtimelimit: #If current time is equal to or greater than the limit, the quiz ends
         print (f"Time is up! You scored {score}. Try again for a better score!")
         break
+
 
