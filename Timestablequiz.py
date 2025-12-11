@@ -38,9 +38,10 @@ def quizbody():
             if tryagain == "y":
                 quizstart()
             else:
-                break
+                quit()
 
 quizstart()
+
 
 
 
