@@ -2,6 +2,8 @@
 ## User Guide
 ### Step 1: Download the Python script
 Download Timestablequiz.py
+<img width="1904" height="259" alt="image" src="https://github.com/user-attachments/assets/56d7c8f6-ab35-4f0b-a12f-f91f5e67d48d" />
+
 ### Step 2: Open Timestablequiz.py
 Open with your preferred environment, it can be run directly from the Python terminal
 ### Step 3: Start the quiz
