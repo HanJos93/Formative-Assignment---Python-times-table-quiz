@@ -1,12 +1,18 @@
 # Python-times-table-quiz
 ## User Guide
-### Step 1: Download the Python script
-Download Timestablequiz.py
-<img width="1904" height="259" alt="image" src="https://github.com/user-attachments/assets/56d7c8f6-ab35-4f0b-a12f-f91f5e67d48d" />
 
-### Step 2: Open Timestablequiz.py
+### Step 1: Install Python
+This quiz was created using the Python programming language and will require it to run.
+
+You can install Python here: (https://www.python.org/downloads/)
+
+### Step 2: Download the Python Script
+Download Timestablequiz.py
+<img width="3807" height="518" alt="Download script" src="https://github.com/user-attachments/assets/fa743ff9-40e0-4124-88e7-6e1a19f0b153" />
+
+### Step 3: Open Timestablequiz.py
 Open with your preferred environment, it can be run directly from the Python terminal
-### Step 3: Start the quiz
+### Step 4: Start the quiz
 Once the code is run, you will be able to start the quiz by entering any character and pressing enter. This will start a 3 second countdown before the quiz begins.
 ### Python libraries
 This script uses random and time, ensure these are installed.
