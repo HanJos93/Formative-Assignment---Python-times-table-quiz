@@ -4,7 +4,7 @@
 ### Step 1: Install Python
 This quiz was created using the Python programming language and will require it to run.
 
-You can install Python here: (https://www.python.org/downloads/)
+[You can install Python here](https://www.python.org/downloads/)
 
 ### Step 2: Download the Python Script
 Download Timestablequiz.py
