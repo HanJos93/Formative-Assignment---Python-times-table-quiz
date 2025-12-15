@@ -1,8 +1,8 @@
-#Imports random library
 import random
+#Imports random library to generate random integers for use in the questions
 
-#Imports time library
 import time
+#Imports time library to set a countdown to start the quiz and end it.
 
 def quizstart():
     #Introduction to the quiz
@@ -21,9 +21,9 @@ def quizbody():
     qtimelimit = (60) #Sets the time limit (in seconds) for the quiz
     qtimerstart = time.time() #Records current time since epoch in seconds
     for i in range (qtimelimit):
-        num1 = random.randint(1, 12) #Defines the first number
-        num2 = random.randint(1, 12) #Defines the second number
-        answer = int(num1*num2) #Defines the answer
+        num1 = random.randint(1, 12) 
+        num2 = random.randint(1, 12)
+        answer = int(num1*num2)
         question = int(input(f"{num1} * {num2} " )) #Generates a question that times num1 by num2
         if question == answer:
             print("Correct!")
@@ -41,6 +41,8 @@ def quizbody():
                 quit()
 
 quizstart()
+
+
 
 
 
