@@ -11,12 +11,27 @@ Download Timestablequiz.py
 <img width="3807" height="518" alt="Download script" src="https://github.com/user-attachments/assets/fa743ff9-40e0-4124-88e7-6e1a19f0b153" />
 
 ### Step 3: Open Timestablequiz.py
-Open with your preferred environment, it can be run directly from the Python terminal
+If Python is your only terminal application, it will automatically open the console if you click to open the downloaded Timestablequiz.py file.
+
+Otherwise, right click the application and open with Python:
+<img width="1174" height="333" alt="Open script" src="https://github.com/user-attachments/assets/68037c73-7b69-4798-889b-4890bc1711ac" />
+
+You should be met with the following text in the terminal if you have opened it correctly:
+<img width="896" height="346" alt="Terminal" src="https://github.com/user-attachments/assets/bed55d47-9f3b-42c4-9a84-7583f5abcfcc" />
+
 ### Step 4: Start the quiz
-Once the code is run, you will be able to start the quiz by entering any character and pressing enter. This will start a 3 second countdown before the quiz begins.
-### Python libraries
-This script uses random and time, ensure these are installed.
+As stated in the quiz introduction, type any character and press enter to begin. To answer a question type the answer and press enter.
+
+You will have 60 seconds to answer as many as possible, good luck!
+
 ## Technical documentation
+
+### Python libraries
+This script uses random and time, these are usually included by default in recent versions of Python. If you receive any errors when running the code, attempt to install these libraries using the following code in the windows terminal.
+
+pip3 install random
+pip3 install time
+
 You can edit the code by opening the .py file in your preferred environment. The script was created and run entirely within Visual Studio Code.
 ```python
 def quizstart():
